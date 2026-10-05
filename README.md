@@ -51,4 +51,4 @@ A suite of three small, fully tested Python automations:
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/tmorato) · [morato.karriere@gmail.com](mailto:morato.karriere@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/tmorato)
