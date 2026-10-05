@@ -4,7 +4,7 @@ I build test automation and CI quality gates. I spent three years as a working-s
 
 I'm finishing an **M.Sc. in Applied Computer Science** at Universität Hildesheim (03/2027), focused on software engineering, testing and NLP. Alongside it I work as a research assistant, fine-tuning BERT for text classification on the university GPU cluster.
 
-🎯 **Looking for:** QA / test automation roles in Germany from **04/2027**, ideally where software failure has real consequences (rail, automotive, industrial).
+🎯 **Looking for:** Full time IT roles in Germany from **04/2027**
 
 ## Highlighted projects
 
