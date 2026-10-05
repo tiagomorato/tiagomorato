@@ -10,7 +10,7 @@ I'm finishing an **M.Sc. in Applied Computer Science** at Universität Hildeshei
 
 ### [Qwixx Scoreboard](https://github.com/tiagomorato/qwixx)
 
-A live-synced scoreboard web app for the Qwixx dice game (TypeScript, Bun, React, Server-Sent Events). Built spec-first with GitHub Spec Kit and Claude Code, and tested in four layers: 78 unit tests, performance budgets, and 17 Playwright end-to-end tests with axe-core accessibility audits, all gated in CI. Making the E2E suite reliable also turned up a real cross-device sync bug, which is now fixed.
+A live-synced scoreboard web app for the Qwixx dice game (TypeScript, Bun, React, Server-Sent Events). Built spec-first with GitHub Spec Kit and Claude Code, and tested in four layers: 78 unit tests, performance budgets, 17 Playwright end-to-end tests with axe-core accessibility audits, and static checks (Biome, strict TypeScript), all gated in CI. Making the E2E suite reliable also turned up a real cross-device sync bug, which is now fixed.
 
 ### University portal automations
 
