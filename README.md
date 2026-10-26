@@ -1,68 +1,82 @@
 # Hi, I'm Tiago 👋
 
-I have ~5 years of working experience as a student, will graduate in computer science on March 2027 and am available for a full time position from April 2027.
+For three years I worked as a software tester at Hacon, a Siemens company, testing the system Deutsche Bahn uses to register track work and automating its regression tests with Selenium (Python) and Cypress (TypeScript).
 
-## Highlighted projects
+I'm now finishing my M.Sc. in Applied Computer Science at Universität Hildesheim while working as a research assistant in NLP, and I'm available for full-time roles from **April 2027**.
 
-### Qwixx Scoreboard
+[LinkedIn](https://www.linkedin.com/in/tmorato) · [Website](https://tiagomorato.github.io/)
 
-A web app for the dice game Qwixx.
+## Software engineering
 
-| Project                                                  | Problem                                                               | Solution                                                                     |
-| -------------------------------------------------------- | --------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| [Qwixx Scoreboard](https://github.com/tiagomorato/qwixx) | Scores are kept on paper score sheets, so past matches are not stored | A website where users register their scores and that also stores the matches |
+<table>
+<tr>
+<td width="60%">
+<h3>Browser Plugin for JabRef</h3>
+<em>University software project, 6-person team</em>
+<ul>
+<li>Set up quality gates with 5 <b>GitHub Actions</b> workflows (ESLint, Prettier, markdownlint, PR format, merge-conflict detection)</li>
+<li>Built the test automation from scratch with <b>Vitest</b> and <b>Playwright</b>, run in CI on every pull request</li>
+<li>Wrote the Quality Management Plan, adopted by all 6 contributors across 100 pull requests</li>
+</ul>
+<a href="https://tiagomorato.github.io/projects/#software">Read more →</a>
+</td>
+<td width="40%"><img src="https://tiagomorato.github.io/images/projects/jabref-quality-gates.svg" alt="CI checks run on every pull request of the JabRef browser plugin"></td>
+</tr>
+<tr>
+<td>
+<h3><a href="https://github.com/tiagomorato/qwixx">Qwixx Scoreboard</a></h3>
+Live-synced digital scoreboard for the Qwixx dice game, built spec-first with GitHub Spec Kit in Claude Code and tested with Playwright, axe-core and bun test.
+<br><br>
+<code>TypeScript</code> <code>Bun</code> <code>React</code> <code>Server-Sent Events</code> <code>Playwright</code>
+</td>
+<td><img src="https://tiagomorato.github.io/images/projects/qwixx-scoreboard.jpg" alt="Qwixx scoreboard with three players and a live point total"></td>
+</tr>
+<tr>
+<td>
+<h3><a href="https://github.com/tiagomorato/lsf-grade-finder">LSF Grade Finder</a></h3>
+Telegram notifications for new grades on the Universität Hildesheim LSF portal, checked on a schedule by GitHub Actions.
+<br><br>
+<code>Python</code> <code>requests</code> <code>BeautifulSoup</code> <code>pytest</code> <code>GitHub Actions</code>
+</td>
+<td><img src="https://tiagomorato.github.io/images/projects/lsf-grade-finder-telegram.svg" alt="Pipeline from the LSF portal to a Telegram message announcing a new grade"></td>
+</tr>
+<tr>
+<td>
+<h3><a href="https://github.com/tiagomorato/web-scrape-wg-gesucht">Automated Flat Search</a></h3>
+Scrapes WG-Gesucht and sends real-time notifications about new listings through a Telegram bot.
+<br><br>
+<code>Python</code> <code>MySQL</code> <code>Heroku</code> <code>Telegram API</code> <code>Dash Plotly</code>
+</td>
+<td><img src="https://tiagomorato.github.io/images/projects/flat-search-telegram.jpg" alt="Telegram bot message for a new WG-Gesucht listing"></td>
+</tr>
+</table>
 
-It was built using [GitHub Spec Kit](https://github.com/github/spec-kit) within Claude Code.
+## Academic research
 
-Keywords: Qwixx, Scoreboard, TypeScript, Bun, React, Playwright, Spec-Driven-Developmen (SDD), GitHub Spec Kit, Claude Code
-
----
-
-### WG Gesucht
-
-A Telegram bot for finding a shared flat.
-
-| Project                                                                    | Problem                                                                                         | Solution                                                                                         |
-| -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| [WG Gesucht Scraper](https://github.com/tiagomorato/web-scrape-wg-gesucht) | Users have to keep refreshing WG Gesucht and scrolling through every post to find a shared flat | New posts are scraped, stored in a MySQL database and sent with their details to a Telegram chat |
-
-Keywords: Python, Web Scraping, MySQL, Telegram Bot, Data Visualization
-
----
-
-### CBNU Calendar
-
-A capstone web application from my exchange semester at Chungbuk National University, South Korea.
-
-| Project                                                      | Problem                                                            | Solution                                                                                                   |
-| ------------------------------------------------------------ | ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
-| [CBNU Calendar](https://github.com/CBNUhelloDB/CBNUCalendar) | Students organizing events have no central place to publicize them | A website where students create clubs and publish events with date, time, location and a short description |
-
-Keywords: PHP, MySQL, HTML, SCSS, XAMPP
-
----
-
-### University Seminar Manager
-
-A web platform for running university seminars.
-
-| Project                                                                                 | Problem                                                                                        | Solution                                                                               |
-| --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| [University Seminar Manager](https://github.com/tiagomorato/university-seminar-manager) | Professors have no single place to organize seminars and collect feedback on each presentation | Professors create seminars, students join them and evaluate each other's presentations |
-
-Keywords: Python, Flask, PostgreSQL, HTML
-
----
-
-### University portal automations
-
-Some useful automations for the university.
-
-| Project                                                                           | Problem                                                                                               | Solution                                                                      |
-| --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| [LSF Grade Finder](https://github.com/tiagomorato/lsf-grade-finder)               | Students have to log in to the website every time to check whether a grade was posted                 | A Telegram notification with the grade and the course as soon as it is posted |
-| [Uni E-Mail Finder](https://github.com/tiagomorato/uni-mail-finder)               | The email platform has no efficient notification system, so users have to open it manually every time | New emails are delivered to a Telegram chat                                   |
-| [LearnWeb Content Finder](https://github.com/tiagomorato/learnweb-content-finder) | Users have to check manually whether something new was posted                                         | The headline of what was added or removed is sent to a Telegram chat          |
+<table>
+<tr>
+<td width="60%">
+<h3><a href="https://github.com/tiagomorato/llm-prompting-text-classification">LLM Prompting vs. fastText for Text Classification</a></h3>
+<em>NLP course paper</em>
+<br><br>
+Compared zero-shot and few-shot prompting of Qwen3-4B, Phi-2 and GPT-5 against a fastText baseline trained on 560,000 Amazon reviews. Few-shot prompting lifted Phi-2 from 0.63 to 0.91 F1.
+<br><br>
+<code>Python</code> <code>Hugging Face Transformers</code> <code>fastText</code> <code>scikit-learn</code>
+</td>
+<td width="40%"><img src="https://tiagomorato.github.io/images/projects/llm-prompting-results.svg" alt="F1 scores of zero-shot and few-shot prompting against the fastText baseline"></td>
+</tr>
+<tr>
+<td>
+<h3><a href="https://github.com/tiagomorato/youtube-covid-topic-modeling">Topic Modeling of Brazilian YouTube Comments on COVID-19</a></h3>
+<em>B.A. thesis · ACL submission (not accepted)</em>
+<br><br>
+Modelled 456,602 Portuguese comments from 2,604 videos with BERTopic and LeIA sentiment analysis. Science channels discussed vaccines and prevention, media channels discussed politics, and 58.9 % of all comments were negative.
+<br><br>
+<code>Python</code> <code>YouTube Data API</code> <code>BERTopic</code> <code>spaCy</code>
+</td>
+<td><img src="https://tiagomorato.github.io/images/projects/youtube-covid-sentiment.svg" alt="Share of negative comments by channel group"></td>
+</tr>
+</table>
 
 ## Tech
 
@@ -79,6 +93,7 @@ Some useful automations for the university.
 **Languages & CI**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
@@ -104,7 +119,3 @@ Some useful automations for the university.
 ![Typst](https://img.shields.io/badge/Typst-239DAD?logo=typst&logoColor=white)
 
 🗣️ Portuguese (native), German (C1), English (C1)
-
-## Contact
-
-[LinkedIn](https://www.linkedin.com/in/tmorato)
